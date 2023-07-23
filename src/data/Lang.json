@@ -1,0 +1,105 @@
+{
+    "enNav": [
+        "Home",
+        "Devices",
+        "Games",
+        "What's new",
+        "Shop",
+        "QA",
+        "Log Out",
+        "Sign In"
+    ],
+
+    "frNav": [
+        "Accueil",
+        "Appareils",
+        "Jeux",
+        "Actualités",
+        "Magasin",
+        "FAQ",
+        "Déconnexion",
+        "Connecter"
+    ],
+
+    "enHome": [
+        "About Us",
+        "Welcome to NexGen, your gateway to the world of cutting-edge gaming gear and apparel.",
+        "NexGen is a leading innovator in the gaming industry, dedicated to providing an immersive gaming experience like no other. With cutting-edge technology and a passion for gaming, NexGen creates state-of-the-art gaming consoles and develops captivating video game titles. Explore a world of limitless possibilities and embark on extraordinary gaming adventures with NexGen.",
+        "And here's contact information for support:",
+        "Support Contact: <br>Email: support@nexgen.com <br>Phone: 1-800-NEXGEN-HELP (1-800-639-4364) <br>Operating Hours: Monday to Friday, 9:00 AM - 6:00 PM (EST)",
+        "Order our newest NEXGEN NEXUS Console today!",
+        "Redirect to Devices",
+        "EA FC 24",
+        "Coming soon to the NEXUS is EA FC 24 the latest installment in the iconic soccer gaming franchise. Immerse yourself in a revolutionary world of hyper-realistic graphics and gameplay, featuring enhanced player animations and intuitive controls that deliver unparalleled precision on the virtual pitch. Explore an expanded range of game modes, including an all-new story-driven campaign, and compete against a global community of players in thrilling multiplayer competitions. With dynamic weather effects and dynamic crowds, FIFA 24 sets a new standard for immersive soccer simulation, offering an authentic and unforgettable gaming experience like never before.",
+        "Pre-Order Now!",
+        "NEXGEN INFINITY",
+        "Welcome to NexGen Infinity, your ultimate gaming subscription service, offering a vast game library, monthly free games, exclusive discounts, online multiplayer, and more! Elevate your gaming experience to the next level with our premium perks.",
+        "Get it today!",
+        "Follow Us On Social Media",
+        "$9.99 Per Month"
+    ],
+
+    "frHome": [
+        "A Propos",
+        "Bienvenue chez NexGen, votre porte d'entrée dans le monde de l'équipement et des vêtements de jeu à la pointe de la technologie.",
+        "NexGen est un innovateur de premier plan dans l'industrie du jeu, qui se consacre à offrir une expérience de jeu immersive comme aucune autre. With cutting-edge technology and a passion for gaming, NexGen creates state-of-the-art gaming consoles and develops captivating video game titles. Explorez un monde de possibilités illimitées et embarquez dans des aventures de jeu extraordinaires avec NexGen.",
+        "Et voici les informations de contact:",
+        "Contact pour le support: <br>Courriel: support@nexgen.com <br>Téléphone: 1-800-NEXGEN-HELP (1-800-639-4364) <br>Heures d'ouverture: du lundi au vendredi, de 9 h à 18 h (EST)",
+        "Commandez dès aujourd'hui notre toute nouvelle console NEXGEN NEXUS!",
+        "Redirection vers les Appareils",
+        "EA FC 24",
+        "Bientôt sur la NEXUS, EA FC 24, le dernier épisode de la franchise emblématique de jeux de football. Plongez-vous dans un univers révolutionnaire aux graphismes hyper-réalistes et au gameplay évolué, avec des animations de joueurs améliorées et des commandes intuitives qui offrent une précision inégalée sur le terrain virtuel. Découvrez une gamme de modes de jeu élargie, incluant une toute nouvelle campagne basée sur l'histoire, et rivalisez contre une communauté mondiale de joueurs dans des compétitions multijoueurs passionnantes. Avec des effets météo dynamiques et des foules réactives, FIFA 24 établit une nouvelle norme en matière de simulation de football immersive, offrant une expérience de jeu authentique et inoubliable comme jamais auparavant.",
+        "Commandez En Avance Maintenant!",
+        "NEXGEN INFINITY",
+        "Bienvenue à NexGen Infinity, votre service d'abonnement de jeux ultime, offrant une vaste bibliothèque de jeux, des jeux gratuits mensuels, des remises exclusives, du multijoueur en ligne et plus encore! Elevez votre expérience de jeu au niveau supérieur avec nos avantages premium.",
+        "Achetez Aujourd'hui",
+        "Suivez-Nous Sur Les Médias Sociaux",
+        "$9.99 Par Mois"
+    ],
+
+    "enSign": [
+        "Sign In",
+        "Email Address",
+        "Wrong Email or Password",
+        "Password"
+    ],
+
+    "frSign": [
+        "Connecter",
+        "Addresse Courriel",
+        "Mauvais Courriel ou Mot de Passe",
+        "Mot de Passe"
+    ],
+
+    "enGames": [
+        "Look Through our Games",
+        "Search...",
+        "Sort by Game Type",
+        "Sort by Price",
+        "Purchase",
+        "All",
+        "Adventure",
+        "Action",
+        "Sport",
+        "FPS",
+        "Default",
+        "High to Low",
+        "Low to High"
+    ],
+
+    "frGames": [
+        "Consultez nos Jeux",
+        "Recherche...",
+        "Trier Par Type",
+        "Trier par Prix",
+        "Achetez",
+        "Tout",
+        "Aventure",
+        "Action",
+        "Sport",
+        "FPS",
+        "Défaut",
+        "Haut à Bas",
+        "Bas à Haut"
+    ]
+}

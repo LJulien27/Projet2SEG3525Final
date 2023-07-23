@@ -1,0 +1,129 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  position: fixed;
+}
+.nexgenTitle {
+  color: #8c08aa;
+}
+.navbar .sign-in {
+  transition: transform 0.5s;
+}
+.navbar .sign-in:hover {
+  background-color: #8c08aa;
+  transform: scale(1.1);
+}
+.navbar .links {
+  margin-right: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  transition: font-size 0.5s;
+}
+.navbar a:hover {
+  color: #8c08aa;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.content {
+  width: 100%;
+  margin: 40px auto;
+  padding: 20px;
+}
+.space {
+  height: 1000px;
+}
+.contact-button {
+  right: 20px;
+  bottom: 20px;
+  position: fixed;
+  transition: transform 0.6s;
+}
+.contact-button:hover {
+  background-color: #8c08aa;
+  transform: scale(1.1);
+}
+.games {
+  width: 100%;
+  max-width: 100vw;
+}
+.card-container {
+  margin-left: 220px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.card-container .card {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.ratings {
+  color: #8b7979; /* Lighter color */
+  font-size: 14px; /* Smaller font size */
+}
+
+.container-outline {
+  border: 2px solid blueviolet;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.container-home {
+  border: 2px solid blueviolet;
+  background-color: rgb(236, 243, 249);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card-image-container {
+  position: relative;
+  width: 100%;
+  padding-top: 75%; /* Control the aspect ratio here (e.g., 75% for 4:3, 56.25% for 16:9, etc.) */
+}
+
+.card-image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and avoid image distortion */
+}
+
+.card-description {
+  position: absolute; 
+  bottom: 15px; 
+  left: 0; 
+  right: 0;
+}
+
+.main-content {
+  justify-content: space-between;
+}
+
+.dropdown-section {
+  flex: 1;
+  padding-right: 2rem;
+  top: 230px;
+  width: 200px;
+  position: fixed;
+}
+
+.dropdown-section .dropdown {
+  width: 180px;
+}
