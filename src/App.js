@@ -98,10 +98,20 @@ function App() {
   const [showOnline, setShowOnline] = useState(false);
   const [showPurchase, setShowPurchase] = useState(false);
   const handleOnlineP = () => {
-    setShowOnline(!showOnline);
+    if (!isLoggedIn){
+      alert ('You need to be logged in to make purchases');
+    }
+    else {
+      setShowOnline(!showOnline);
+    }
   }
   const handlePurchase = () => {
-    setShowPurchase(!showPurchase);
+    if (!isLoggedIn){
+      alert ('You need to be logged in to make purchases');
+    }
+    else {
+      setShowPurchase(!showPurchase);
+    }
   }
   const [cardNumber, setCardNumber] = useState('');
   const [expiryDate, setExpiryDate] = useState('');
