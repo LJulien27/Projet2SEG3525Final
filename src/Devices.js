@@ -56,7 +56,7 @@ const Devices = ({handleOnlineP, handlePurchase}) => {
         {
             id: 1,
             title: 'White Nexus Controller',
-            description: 'Some quick example text for description and details about the game in question.',
+            description: 'Experience unparalleled precision and immersive gameplay with the NexGen controller, designed for ultimate comfort and control.',
             ratings: '4.2 Star Rating',
             price: 59.99,
             image: whiteController,
@@ -64,7 +64,7 @@ const Devices = ({handleOnlineP, handlePurchase}) => {
         {
             id: 2,
             title: 'Red Nexus Controller',
-            description: 'Some quick example text for description and details about the game in question.',
+            description: 'Experience unparalleled precision and immersive gameplay with the NexGen controller, designed for ultimate comfort and control.',
             ratings: '4.7 Star Rating',
             price: 59.99,
             image: redController,
@@ -72,7 +72,7 @@ const Devices = ({handleOnlineP, handlePurchase}) => {
         {
             id: 3,
             title: 'Galaxy Nexus Controller',
-            description: 'Some quick example text for description and details about the game in question.',
+            description: 'Experience unparalleled precision and immersive gameplay with the NexGen controller, designed for ultimate comfort and control.',
             ratings: '4.8 Star Rating',
             price: 59.99,
             image: galaxyController,
@@ -80,7 +80,7 @@ const Devices = ({handleOnlineP, handlePurchase}) => {
         {
             id: 4,
             title: 'Black Nexus Controller',
-            description: 'Some quick example text for description and details about the game in question.',
+            description: 'Experience unparalleled precision and immersive gameplay with the NexGen controller, designed for ultimate comfort and control.',
             ratings: '4.5 Star Rating',
             price: 59.99,
             image: blackController,
@@ -88,7 +88,7 @@ const Devices = ({handleOnlineP, handlePurchase}) => {
         {
             id: 5,
             title: 'Purple Nexus Controller',
-            description: 'Some quick example text for description and details about the game in question.',
+            description: 'Experience unparalleled precision and immersive gameplay with the NexGen controller, designed for ultimate comfort and control.',
             ratings: '4.6 Star Rating',
             price: 59.99,
             image: purpleController,
@@ -181,7 +181,7 @@ const Devices = ({handleOnlineP, handlePurchase}) => {
                 <h2 className="m-3">Have a look at our Controllers</h2>
                 <div className="row row-cols-1 row-cols-md-5 justify-content-center">
                     {controllers.map((card) => (
-                        <Card className="m-2" key={card.id} style={{ width: '14rem' }}>
+                        <Card className="m-2" key={card.id} style={{ width: '17rem' }}>
                             <div className="card-image-container">
                                 <Card.Img variant="top" src={card.image} />
                             </div>

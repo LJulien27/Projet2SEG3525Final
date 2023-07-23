@@ -61,14 +61,26 @@
         "Sign In",
         "Email Address",
         "Wrong Email or Password",
-        "Password"
+        "Password",
+        "Sign Up",
+        "Sign Up to NEXGEN",
+        "Enter your Email",
+        "Make a Password",
+        "Email is not properly formatted. Example: abc@example.com",
+        "Password must be at least 8 characters long, contain at least one letter and one number."
     ],
 
     "frSign": [
         "Connecter",
         "Addresse Courriel",
         "Mauvais Courriel ou Mot de Passe",
-        "Mot de Passe"
+        "Mot de Passe",
+        "Inscrivez",
+        "Inscrivez à NEXGEN",
+        "Entrez votre Email",
+        "Créer un Mot de Passe",
+        "L'Email n'est pas correctement formaté. Exemple : abc@example.com",
+        "Le mot de passe doit contenir au moins 8 caractères, dont au moins une lettre et un chiffre."
     ],
 
     "enGames": [

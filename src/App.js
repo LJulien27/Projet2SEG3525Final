@@ -72,12 +72,12 @@ function App() {
     const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/; // Minimum eight characters, at least one letter and one number
   
     if (!emailRegex.test(email)) {
-      setSignUpError('Email is not properly formatted. Example: abc@example.com');
+      setSignUpError(text[8]);
       return;
     }
   
     if (!passwordRegex.test(password)) {
-      setSignUpError('Password must be at least 8 characters long, contain at least one letter and one number.');
+      setSignUpError(text[9]);
       return;
     }
   
@@ -263,20 +263,20 @@ function App() {
                   { text[0] }
                 </Button>
                 <Button variant="primary" onClick={handleSignUpButton}>
-                  Sign Up
+                  { text[4] }
                 </Button>
               </Modal.Footer>
             </Modal>
 
             <Modal show={showSignUp} onHide={handleSignUpButton}>
               <Modal.Header closeButton>
-                <Modal.Title>Sign Up to NEXGEN</Modal.Title>
+                <Modal.Title>{text[5]}</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 {setSignUpError && <p style={{ color: 'red' }}>{signUpError}</p>}
                 <Form>
                   <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                    <Form.Label>Enter your email</Form.Label>
+                    <Form.Label>{text[6]}</Form.Label>
                     <Form.Control
                       type="email"
                       value={email}
@@ -289,7 +289,7 @@ function App() {
                     className="mb-3"
                     controlId="exampleForm.ControlTextarea1"
                   >
-                    <Form.Label>Make a password</Form.Label>
+                    <Form.Label>{text[7]}</Form.Label>
                     <Form.Control
                       type="password"
                       value={password}
@@ -300,7 +300,7 @@ function App() {
               </Modal.Body>
               <Modal.Footer className="justify-content-center">
                 <Button variant="primary" onClick={handleSignUp}>
-                  Sign Up
+                  {text[4]}
                 </Button>
               </Modal.Footer>
             </Modal>
