@@ -1,4 +1,4 @@
-Here is the link to the deployed site: nexgen-seg.netlify.app
+Here is the link to the deployed site: https://nexgen-seg.netlify.app
 
 # Getting Started with Create React App
 
